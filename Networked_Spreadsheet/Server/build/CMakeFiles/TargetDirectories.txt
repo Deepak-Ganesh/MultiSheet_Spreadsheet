@@ -1,0 +1,3 @@
+F:/Code/source/repos/CS3505-Spreadsheet/Server/build/CMakeFiles/Server.dir
+F:/Code/source/repos/CS3505-Spreadsheet/Server/build/CMakeFiles/ALL_BUILD.dir
+F:/Code/source/repos/CS3505-Spreadsheet/Server/build/CMakeFiles/ZERO_CHECK.dir

@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\Code\source\repos\CS3505-Spreadsheet\Server\message_classes\AdminEditOverviewMessage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Code\source\repos\CS3505-Spreadsheet\Server\message_classes\AdminListMessage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Code\source\repos\CS3505-Spreadsheet\Server\message_classes\AdminUserListMessage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Code\source\repos\CS3505-Spreadsheet\Server\message_classes\EditMessage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Code\source\repos\CS3505-Spreadsheet\Server\message_classes\ErrorMessage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Code\source\repos\CS3505-Spreadsheet\Server\message_classes\FullSendMessage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Code\source\repos\CS3505-Spreadsheet\Server\message_classes\OpenMessage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Code\source\repos\CS3505-Spreadsheet\Server\message_classes\RevertMessage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Code\source\repos\CS3505-Spreadsheet\Server\message_classes\SpreadsheetListMessage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Code\source\repos\CS3505-Spreadsheet\Server\message_classes\UndoMessage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Code\source\repos\CS3505-Spreadsheet\Server\network_controller\Cell.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Code\source\repos\CS3505-Spreadsheet\Server\network_controller\CellChange.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Code\source\repos\CS3505-Spreadsheet\Server\network_controller\Connection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Code\source\repos\CS3505-Spreadsheet\Server\network_controller\ConnectionCollection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Code\source\repos\CS3505-Spreadsheet\Server\network_controller\DependencyGraph.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Code\source\repos\CS3505-Spreadsheet\Server\network_controller\Document.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Code\source\repos\CS3505-Spreadsheet\Server\network_controller\DocumentCollection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Code\source\repos\CS3505-Spreadsheet\Server\network_controller\Message.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Code\source\repos\CS3505-Spreadsheet\Server\network_controller\NetworkController.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Code\source\repos\CS3505-Spreadsheet\Server\network_controller\Server.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Code\source\repos\CS3505-Spreadsheet\Server\network_controller\UserAccountCollection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Code\source\repos\CS3505-Spreadsheet\Server\network_controller\buf_to_str.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Code\source\repos\CS3505-Spreadsheet\Server\network_controller\save_server.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Code\source\repos\CS3505-Spreadsheet\Server\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="F:\Code\source\repos\CS3505-Spreadsheet\Server\message_classes\AdminEditOverviewMessage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Code\source\repos\CS3505-Spreadsheet\Server\message_classes\AdminListMessage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Code\source\repos\CS3505-Spreadsheet\Server\message_classes\AdminUserListMessage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Code\source\repos\CS3505-Spreadsheet\Server\message_classes\EditMessage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Code\source\repos\CS3505-Spreadsheet\Server\message_classes\ErrorMessage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Code\source\repos\CS3505-Spreadsheet\Server\message_classes\FullSendMessage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Code\source\repos\CS3505-Spreadsheet\Server\message_classes\OpenMessage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Code\source\repos\CS3505-Spreadsheet\Server\message_classes\RevertMessage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Code\source\repos\CS3505-Spreadsheet\Server\message_classes\SpreadsheetListMessage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Code\source\repos\CS3505-Spreadsheet\Server\message_classes\UndoMessage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Code\source\repos\CS3505-Spreadsheet\Server\network_controller\Cell.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Code\source\repos\CS3505-Spreadsheet\Server\network_controller\CellChange.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Code\source\repos\CS3505-Spreadsheet\Server\network_controller\Connection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Code\source\repos\CS3505-Spreadsheet\Server\network_controller\ConnectionCollection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Code\source\repos\CS3505-Spreadsheet\Server\network_controller\DependencyGraph.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Code\source\repos\CS3505-Spreadsheet\Server\network_controller\Document.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Code\source\repos\CS3505-Spreadsheet\Server\network_controller\DocumentCollection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Code\source\repos\CS3505-Spreadsheet\Server\network_controller\Message.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Code\source\repos\CS3505-Spreadsheet\Server\network_controller\NetworkController.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Code\source\repos\CS3505-Spreadsheet\Server\network_controller\Server.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Code\source\repos\CS3505-Spreadsheet\Server\network_controller\UserAccountCollection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Code\source\repos\CS3505-Spreadsheet\Server\network_controller\buf_to_str.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Code\source\repos\CS3505-Spreadsheet\Server\network_controller\save_document.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Code\source\repos\CS3505-Spreadsheet\Server\network_controller\save_server.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\Code\source\repos\CS3505-Spreadsheet\Server\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{2D64E8A5-0C42-3F9A-94D1-B5067987BF96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{43748771-FAF1-3A4F-8570-63AA393D7064}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

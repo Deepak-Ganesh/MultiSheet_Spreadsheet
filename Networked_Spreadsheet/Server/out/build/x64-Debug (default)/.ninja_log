@@ -1,0 +1,26 @@
+# ninja log v5
+63	1766	679542591	CMakeFiles/Server.dir/network_controller/DependencyGraph.cpp.obj	81036737f4265bc5
+0	2116	679542591	CMakeFiles/Server.dir/message_classes/AdminEditOverviewMessage.cpp.obj	860459d6469f6310
+26	2165	679542591	CMakeFiles/Server.dir/message_classes/RevertMessage.cpp.obj	94476dbe320532a1
+51	2210	679542591	CMakeFiles/Server.dir/network_controller/CellChange.cpp.obj	cdb533ec55c353e2
+5	2220	679542591	CMakeFiles/Server.dir/message_classes/AdminListMessage.cpp.obj	472b844892098a25
+33	2228	679542591	CMakeFiles/Server.dir/message_classes/OpenMessage.cpp.obj	2c3f4782829aae08
+41	2237	679542591	CMakeFiles/Server.dir/message_classes/UndoMessage.cpp.obj	e448aad159a822e1
+29	2247	679542591	CMakeFiles/Server.dir/message_classes/SpreadsheetListMessage.cpp.obj	c8b27b584e6ff53c
+17	2293	679542591	CMakeFiles/Server.dir/message_classes/ErrorMessage.cpp.obj	a91568ad4eafe527
+8	2330	679542591	CMakeFiles/Server.dir/message_classes/EditMessage.cpp.obj	e37a028615112b4d
+47	2347	679542591	CMakeFiles/Server.dir/network_controller/Cell.cpp.obj	4f809a615d74682
+22	2381	679542591	CMakeFiles/Server.dir/message_classes/AdminUserListMessage.cpp.obj	248288a8c01991f3
+12	2522	679542592	CMakeFiles/Server.dir/message_classes/FullSendMessage.cpp.obj	3d53da55efa77f54
+1767	2597	679542592	CMakeFiles/Server.dir/network_controller/Message.cpp.obj	4f227db3d7c81c7f
+2220	4442	679542593	CMakeFiles/Server.dir/network_controller/buf_to_str.cpp.obj	9767e058d3b9d26
+70	4510	679542594	CMakeFiles/Server.dir/network_controller/NetworkController.cpp.obj	ae1327e2c759580
+55	4527	679542594	CMakeFiles/Server.dir/network_controller/ConnectionCollection.cpp.obj	1aff53fbfb63d4a7
+59	4553	679542594	CMakeFiles/Server.dir/network_controller/DocumentCollection.cpp.obj	f63bb49875ec6662
+66	4708	679542594	CMakeFiles/Server.dir/network_controller/Document.cpp.obj	11ba619781d318ae
+37	4809	679542594	CMakeFiles/Server.dir/network_controller/Connection.cpp.obj	d3c915aed3c8da13
+2229	5060	679542594	CMakeFiles/Server.dir/main.cpp.obj	5aa1e572c368c654
+2117	5176	679542594	CMakeFiles/Server.dir/network_controller/UserAccountCollection.cpp.obj	765b007db717fa54
+2211	5224	679542594	CMakeFiles/Server.dir/network_controller/save_server.cpp.obj	c5dc8eb8a9a2be1
+2166	5334	679542594	CMakeFiles/Server.dir/network_controller/Server.cpp.obj	17f67e6e3de89412
+5334	5910	679542595	Server.exe	7289813b7728590a

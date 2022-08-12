@@ -1,0 +1,8 @@
+all: main.o
+	g++ *.o -pthread -o server.out -std=c++11  -I../../asio-1.12.2/include -I../../json/include -DASIO_STANDALONE
+
+main.o: main.cpp network_controller/*.cpp message_classes/*.cpp
+	g++ -c -g -std=c++11 main.cpp network_controller/*.cpp message_classes/*.cpp -I../../asio-1.12.2/include -I../../json/include
+
+clean:
+	rm -f server.out *.o

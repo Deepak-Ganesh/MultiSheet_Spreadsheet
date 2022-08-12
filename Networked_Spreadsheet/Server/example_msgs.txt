@@ -1,0 +1,8 @@
+{ "type": "open", "name": "test.sprd", "username": "pajensen", "password": "Doofus" }
+{ "type": "edit", "cell": "A2", "value": "100", "dependencies": []}
+
+Circular dependency with revert:
+{ "type": "edit", "cell": "A1", "value": "=A2", "dependencies": ["A2"]}
+{ "type": "edit", "cell": "A1", "value": "100", "dependencies": []}
+{ "type": "edit", "cell": "A2", "value": "=A1", "dependencies": ["A1"]}
+{ "type": "revert", "cell": "A1" }

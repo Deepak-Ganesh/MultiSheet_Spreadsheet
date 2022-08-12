@@ -1,0 +1,142 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DependencyGraph</name>
+    </assembly>
+    <members>
+        <!-- Badly formed XML comment ignored for member "T:SpreadsheetUtilities.DependencyGraph" -->
+        <member name="M:SpreadsheetUtilities.DependencyGraph.#ctor">
+            <summary>
+            Creates an empty DependencyGraph.
+            </summary>
+        </member>
+        <member name="P:SpreadsheetUtilities.DependencyGraph.Size">
+            <summary>
+            The number of ordered pairs in the DependencyGraph.
+            May increase by 1 on AddDependency.
+            May decrease by 1 on RemoveDependency.
+            May change on ReplaceDependents and ReplaceDependees.
+            </summary>
+        </member>
+        <member name="P:SpreadsheetUtilities.DependencyGraph.Item(System.String)">
+            <summary>
+            The number of dependees the node named <paramref name="nodeName"/> has.
+            Runs in O(1).
+            </summary>
+        </member>
+        <member name="M:SpreadsheetUtilities.DependencyGraph.HasDependents(System.String)">
+            <summary>
+            Whether the node named <paramref name="nodeName"/> has any dependents.
+            Runs in O(1).
+            </summary>
+        </member>
+        <member name="M:SpreadsheetUtilities.DependencyGraph.HasDependees(System.String)">
+            <summary>
+            Whether the node named <paramref name="nodeName"/> has any dependees.
+            Runs in O(1).
+            </summary>
+        </member>
+        <member name="M:SpreadsheetUtilities.DependencyGraph.GetDependents(System.String)">
+            <summary>
+            Copies the list of dependents the node named <paramref name="nodeName"/>.
+            If the node doesn't have any dependents, returns an empty IEnumerable.
+            Runs in O(n), where n is the number of dependents the node has.
+            </summary>
+            <param name="nodeName">The name of the node to get the dependents of.</param>
+            <returns>A newly-created container.</returns>
+        </member>
+        <member name="M:SpreadsheetUtilities.DependencyGraph.GetDependees(System.String)">
+            <summary>
+            Copies the list of dependees the node named <paramref name="nodeName"/>.
+            If the node doesn't have any dependees, returns an empty IEnumerable.
+            Runs in O(n), where n is the number of dependees the node has.
+            </summary>
+            <param name="nodeName">The name of the node to get the dependees of.</param>
+            <returns>A newly-created container.</returns>
+        </member>
+        <member name="M:SpreadsheetUtilities.DependencyGraph.AddDependency(System.String,System.String)">
+             <summary>
+             <para>Adds the ordered pair (s,t), if it doesn't exist</para>
+             
+             <para>This should be thought of as:</para>   
+             
+               t depends on s
+            
+             Runs in O(1).
+             </summary>
+             <param name="dependeeName"> s must be evaluated first. T depends on S</param>
+             <param name="dependentName"> t cannot be evaluated until s is</param>        /// 
+        </member>
+        <member name="M:SpreadsheetUtilities.DependencyGraph.RemoveDependency(System.String,System.String)">
+            <summary>
+            Removes the ordered pair (s, t), if it exists.
+            Runs in O(1).
+            </summary>
+            <param name="dependeeName"></param>
+            <param name="dependentName"></param>
+        </member>
+        <member name="M:SpreadsheetUtilities.DependencyGraph.ReplaceDependents(System.String,System.Collections.Generic.IEnumerable{System.String})">
+            <summary>
+            Raplaces the list of dependents of the node named <paramref name="nodeName"/>.
+            If that node does not exist, it gets created.
+            Removes all existing ordered pairs of the form (s,r).  Then, for each
+            t in newDependents, adds the ordered pair (s,t).
+            </summary>
+        </member>
+        <member name="M:SpreadsheetUtilities.DependencyGraph.ReplaceDependees(System.String,System.Collections.Generic.IEnumerable{System.String})">
+            <summary>
+            Raplaces the list of dependees of the node named <paramref name="nodeName"/>.
+            If that node does not exist, it gets created.
+            Removes all existing ordered pairs of the form (r,s).  Then, for each 
+            t in newDependees, adds the ordered pair (t,s).
+            </summary>
+        </member>
+        <member name="M:SpreadsheetUtilities.DependencyGraph.AddToSet(System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.HashSet{System.String}},System.String,System.String)">
+            <summary>
+            Either adds a value to the HashSet if it exists in the Dictionary,
+            otherwise adds a new HashSet with that value to the Dictionary.
+            </summary>
+            <param name="dict">The Dictionary being modified.</param>
+            <param name="key">The key of the HashSet in <paramref name="dict"/>.</param>
+            <param name="newValue">The value being added to either the specified HashSet
+            or a newly created HashSet</param>
+        </member>
+        <member name="M:SpreadsheetUtilities.DependencyGraph.RemoveFromSet(System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.HashSet{System.String}},System.String,System.String)">
+            <summary>
+            Removes an item from a set, and if that makes the set empty then removes it from its
+            parent dictionary.
+            </summary>
+            <param name="parentDict">The Dictionary containing the set.</param>
+            <param name="dictKey">The key within <paramref name="parentDict"/> matched to
+            the set.</param>
+            <param name="setItem">The key to remove from the set.</param>
+        </member>
+        <member name="M:SpreadsheetUtilities.DependencyGraph.GetSet(System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.HashSet{System.String}},System.String)">
+            <summary>
+            Returns a shallow copy of the set matched by key, or returns an empty set.
+            </summary>
+            <param name="dict">The dictionary the sets are being pulled from.</param>
+            <param name="key">The key to dict.</param>
+            <returns>A new HashSet, either a shallow copy of one in dict or an empty one.</returns>
+        </member>
+        <member name="M:SpreadsheetUtilities.DependencyGraph.GetSetSize(System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.HashSet{System.String}},System.String)">
+            <summary>
+            Returns the size of the set if it exists in dict, otherwise 0.
+            This is useful because it's O(1), unlike GetSet.
+            </summary>
+            <param name="dict"></param>
+            <param name="key"></param>
+            <returns></returns>
+        </member>
+        <member name="F:SpreadsheetUtilities.DependencyGraph.dependeeSets">
+            <summary>
+            Maps a node's name to its collection of dependees (if it has any).
+            </summary>
+        </member>
+        <member name="F:SpreadsheetUtilities.DependencyGraph.dependentSets">
+            <summary>
+            Maps a node's name to its collection of dependents (if it has any).
+            </summary>
+        </member>
+    </members>
+</doc>

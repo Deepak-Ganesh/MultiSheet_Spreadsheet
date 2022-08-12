@@ -1,0 +1,6 @@
+cmake_minimum_required (VERSION 2.8)
+project (Server)
+File(GLOB src "network_controller/*" "message_classes/*")
+add_executable (Server ${src} main.cpp)
+target_include_directories (Server PUBLIC ${CMAKE_CURRENT_SOURCE_DIR} vendor\\json-develop\\include vendor\\asio-1.12.2\\include)
+target_compile_options(Server PUBLIC -DASIO_STANDALONE)

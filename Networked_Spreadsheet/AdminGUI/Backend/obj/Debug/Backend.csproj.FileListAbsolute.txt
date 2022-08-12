@@ -1,0 +1,6 @@
+C:\Users\brend\Source\Repos\CS3505-Spreadsheet\AdminGUI\Backend\obj\Debug\Backend.csprojAssemblyReference.cache
+C:\Users\brend\Source\Repos\CS3505-Spreadsheet\AdminGUI\Backend\obj\Debug\Backend.csproj.CoreCompileInputs.cache
+C:\Users\brend\Source\Repos\CS3505-Spreadsheet\AdminGUI\Backend\bin\Debug\Backend.dll
+C:\Users\brend\Source\Repos\CS3505-Spreadsheet\AdminGUI\Backend\bin\Debug\Backend.pdb
+C:\Users\brend\Source\Repos\CS3505-Spreadsheet\AdminGUI\Backend\obj\Debug\Backend.dll
+C:\Users\brend\Source\Repos\CS3505-Spreadsheet\AdminGUI\Backend\obj\Debug\Backend.pdb
